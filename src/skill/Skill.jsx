@@ -13,7 +13,7 @@ const Skill = () => {
                 <p>An overview of the tools and technologies I use.</p>
             </div>
 
-            <div className='my-9 space-y-4'>
+            <div className='mt-12 space-y-4'>
                 <div className='space-y-2'>
                     <h3 className='text-start text-xl font-medium'>Language</h3>
                     <div className='flex justify-start lg:justify-normal items-center gap-2 flex-wrap'>
