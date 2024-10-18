@@ -7,17 +7,17 @@ import { SiAxios, SiExpress, SiReactquery } from 'react-icons/si';
 
 const Skill = () => {
     return (
-        <div className='max-w-5xl mx-auto font-roboto  text-center text-[#191919]'>
+        <div className='max-w-5xl mx-auto font-roboto  text-center text-[#191919] px-4 lg:px-0'>
             <div className='space-y-2'>
-                <h2 className='text-4xl font-medium'>My Skill</h2>
+                <h2 className='text-4xl font-medium'>My Skills</h2>
                 <p>An overview of the tools and technologies I use.</p>
             </div>
 
             <div className='my-9 space-y-4'>
                 <div className='space-y-2'>
                     <h3 className='text-start text-xl font-medium'>Language</h3>
-                    <div className='flex items-center gap-2'>
-                        <div className='flex justify-center items-center gap-3 bg-[#191919] text-slate-200 w-fit px-6 py-3'>
+                    <div className='flex justify-start lg:justify-normal items-center gap-2 flex-wrap'>
+                        <div className='flex items-center gap-3 bg-[#191919] text-slate-200 w-fit px-6 py-3'>
                             <p className='text-xl'><FaHtml5 /></p>
                             <p className='uppercase'>Html</p>
                         </div>
@@ -33,7 +33,7 @@ const Skill = () => {
                 </div>
                 <div className='space-y-2'>
                     <h3 className='text-start text-xl font-medium'>Technology</h3>
-                    <div className='flex items-center gap-2'>
+                    <div className='flex items-center gap-2 flex-wrap'>
                         <div className='flex justify-center items-center gap-3 bg-[#191919] text-slate-200 w-fit px-6 py-3'>
                             <p className='text-xl'><RiTailwindCssFill /></p>
                             <p className=''>Tailwind CSS</p>
@@ -66,7 +66,7 @@ const Skill = () => {
                 </div>
                 <div className='space-y-2'>
                     <h3 className='text-start text-xl font-medium'>Tools</h3>
-                    <div className='flex items-center gap-2'>
+                    <div className='flex items-center flex-wrap gap-2'>
                         <div className='flex justify-center items-center gap-3 bg-[#191919] text-slate-200 w-fit px-6 py-3'>
                             <p className='text-xl'><SiAxios /></p>
                             <p className='uppercase'>Axios</p>
