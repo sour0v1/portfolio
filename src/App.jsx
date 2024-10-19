@@ -3,6 +3,7 @@ import Navbar from './nav/Navbar';
 import Skill from './skill/Skill';
 import Projects from './projects/Projects';
 import Contact from './contact/Contact';
+import Footer from './footer/Footer';
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
     <Skill></Skill>
     <Projects></Projects>
     <Contact></Contact>
+    <Footer></Footer>
     </>
   );
 };
