@@ -12,9 +12,9 @@ const Navbar = () => {
                 <h2 className='font-bold border rounded-full border-white px-4 py-2 text-xl'>S</h2>
                 <ul className={`flex flex-col lg:flex-row justify-end items-center lg:gap-9 absolute lg:relative top-14 lg:top-auto w-full bg-[#191919] pb-2 lg:pb-0 transition-transform  origin-top ${menu ? 'duration-300' : 'scale-y-0 lg:scale-100 duration-75'}`}>
                     {/* <a href='#home' className='border-t lg:border-none inline-block lg:inline w-full lg:w-auto text-center lg:text-start py-2 lg:py-0 hover:text-gray-400'>Home</a> */}
-                    <a href='#skills' className='border-t lg:border-none inline-block lg:inline w-full lg:w-auto text-center lg:text-start py-2 lg:py-0 hover:text-gray-400'>Skills</a>
-                    <a href='#projects' className='border-t lg:border-none inline-block lg:inline w-full lg:w-auto text-center lg:text-start py-2 lg:py-0 hover:text-gray-400'>Projects</a>
-                    <a href='#contact' className='border-t lg:border-none inline-block lg:inline w-full lg:w-auto text-center lg:text-start py-2 lg:py-0 border-b hover:text-gray-400'>Contact</a>
+                    <a onClick={() => setMenu(false)} href='#skills' className='border-t lg:border-none inline-block lg:inline w-full lg:w-auto text-center lg:text-start py-2 lg:py-0 hover:text-gray-400'>Skills</a>
+                    <a onClick={() => setMenu(false)} href='#projects' className='border-t lg:border-none inline-block lg:inline w-full lg:w-auto text-center lg:text-start py-2 lg:py-0 hover:text-gray-400'>Projects</a>
+                    <a onClick={() => setMenu(false)} href='#contact' className='border-t lg:border-none inline-block lg:inline w-full lg:w-auto text-center lg:text-start py-2 lg:py-0 border-b hover:text-gray-400'>Contact</a>
                 </ul>
                 <h2 onClick={() => setMenu(!menu)} className='text-2xl lg:hidden block'><CiMenuKebab /></h2>
             </div>

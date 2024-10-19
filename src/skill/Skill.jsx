@@ -10,7 +10,7 @@ const Skill = () => {
         <div id='skills' className='max-w-5xl mx-auto font-roboto  text-center text-[#191919] px-4 lg:px-0'>
             <div className='space-y-2'>
                 <h2 className='text-4xl font-medium'>My Skills</h2>
-                <p>An overview of the tools and technologies I use.</p>
+                <p>An overview of the tools and technologies I use</p>
             </div>
 
             <div className='mt-12 space-y-4'>

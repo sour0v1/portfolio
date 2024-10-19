@@ -5,6 +5,10 @@ import uni from '../assets/uni.png'
 import { TbWorld } from 'react-icons/tb';
 import { FaGithub } from 'react-icons/fa';
 
+// Have to implement in the project
+// 1.add core feature - 3
+// 2.used technology
+
 const Projects = () => {
     return (
         <div id='projects' className='max-w-5xl mx-auto font-roboto  text-center text-[#191919] px-4 lg:px-0 my-16'>

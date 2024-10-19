@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import { MdEmail } from 'react-icons/md';
 
 const Footer = () => {
     const newYear = new Date().getFullYear();
@@ -9,9 +10,11 @@ const Footer = () => {
                 <h1 className='text-2xl font-bold'>Sourov Das</h1>
                 <p className='w-full lg:w-2/4 mx-auto'>Frontend Developer passionate about building user-friendly websites. Currently studying Political Science at National University, blending creativity with technical skills.</p>
                 <div className='text-center flex justify-center items-center gap-3 pt-1'>
+                    {/* <a className='text-2xl inline-block' href=""><MdEmail /></a> */}
                     <a className='text-2xl inline-block' href="https://www.linkedin.com/in/das-sourov/"><FaLinkedin /></a>
                     <a className='text-2xl inline-block' href="https://github.com/sour0v1"><FaGithub /></a>
                 </div>
+                <p className='text-sm underline'>sourovdas730@gmail.com</p>
                 <p className='pt-4 text-sm'>© {newYear} Sourov Das. All Rights Reserved.</p>
             </div>
             <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-16 bg-white rounded-b-[80%]"></div>
