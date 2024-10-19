@@ -7,7 +7,7 @@ import { FaGithub } from 'react-icons/fa';
 
 const Projects = () => {
     return (
-        <div className='max-w-5xl mx-auto font-roboto  text-center text-[#191919] px-4 lg:px-0 my-16'>
+        <div id='projects' className='max-w-5xl mx-auto font-roboto  text-center text-[#191919] px-4 lg:px-0 my-16'>
             <div className='space-y-2'>
                 <h2 className='text-4xl font-medium'>Projects</h2>
                 <p>A showcase of the work I’ve built and designed</p>

@@ -9,7 +9,7 @@ const Banner = () => {
                 <h4 className='font-semibold'>Frontend Web Developer</h4>
             </div>
             <p className='lg:w-2/3 pb-3 text-center lg:text-start'>I am a frontend developer skilled in React, with basic knowledge of Express and MongoDB. My goal is to enhance my expertise in building efficient web applications and contribute to impactful projects.</p>
-            <a href='https://drive.google.com/file/d/1iQ30E9pTl6IqLwhobL_rZCNBpihtFC0t/view?usp=sharing' className='uppercase border px-6 py-3 inline-block'>Resume</a>
+            <a href='https://drive.google.com/file/d/1iQ30E9pTl6IqLwhobL_rZCNBpihtFC0t/view?usp=sharing' className='uppercase border px-6 py-3 inline-block hover:border-gray-400 border-white hover:text-gray-400'>Resume</a>
         </div>
     );
 };
