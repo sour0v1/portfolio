@@ -4,7 +4,7 @@ import { CiMenuKebab } from 'react-icons/ci';
 
 const Navbar = () => {
     const [menu, setMenu] = useState(false);
-    console.log(menu);
+    // console.log(menu);
     // space-y-4 shadow-lg py-6 absolute w-full bg-white rounded-b-lg transition-transform  duration-300 origin-top ${open ? '' : 'scale-y-0'}`}>
     return (
         <div  id='home' className="relative bg-[#191919] overflow-hidden font-roboto px-4 lg:px-0 mb-12 h-screen">

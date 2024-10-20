@@ -6,7 +6,7 @@ const ContactForm = () => {
     const [loading, setLoading] = useState(false);
     // const [successMessage, setSuccessMessage] = useState(null);
 
-    console.log(import.meta.env.VITE_SECRET_KEY)
+    // console.log(import.meta.env.VITE_SECRET_KEY)
     const handleForm = (e) => {
         e.preventDefault();
         setLoading(true);

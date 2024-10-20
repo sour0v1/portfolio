@@ -1,5 +1,5 @@
 import React from 'react';
-import sg from '../assets/sg.png'
+import sg from '../assets/sgg.png'
 import mfs from '../assets/mfs.png'
 import uni from '../assets/uni.png'
 import { TbWorld } from 'react-icons/tb';
@@ -17,14 +17,35 @@ const Projects = () => {
                 <p>A showcase of the work I’ve built and designed</p>
             </div>
             <div className='mt-12 flex flex-col lg:flex-row justify-center items-center gap-6 '>
-                <div className='bg-white p-6 rounded-2xl border w-full lg:w-1/3 h-[550px] hover:border-[#191919]'>
+                <div className='bg-white p-6 rounded-2xl border w-full lg:w-1/3 h-[650px] hover:border-[#191919]'>
                     <div className='w-full space-y-3 flex flex-col justify-between h-full'>
                         <div className='border overflow-hidden rounded-lg'>
-                            <img className='h-48 w-full hover:scale-110 transition-transform duration-300 ease-in-out' src={sg} alt="" />
+                            <a href="https://swapnashray-granthagar.web.app/">
+                                <img className='h-48 w-full hover:scale-110 transition-transform duration-300 ease-in-out' src={sg} alt="" />
+                            </a>
                         </div>
                         <div className='text-start'>
                             <h3 className='text-xl font-medium mb-1'>Swapanshray Granthagar</h3>
-                            An easy-to-use web application where users can browse books by category, search by title or author, and request to borrow books. The platform also allows users to register as members through a dedicated form. Admin can add books, add members, manage memberships, and process borrowing requests efficiently.
+                            A user-friendly web app for browsing, searching, and borrowing books. Members register via a form, and admins manage books, members, and requests.
+                        </div>
+                        <div>
+                            <h4 className='font-medium text-left'>Features</h4>
+                            <ul className=' text-left list-disc pl-7'>
+                                <li className=''>Book Borrowing</li>
+                                <li className=''>Search books by title or author</li>
+                                <li className=''>Member Registration</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4 className='font-medium text-left'>Used Technology</h4>
+                            <div className='flex flex-wrap'>
+                                <span className='pr-3'>React</span>
+                                <span className='pr-3'>Axios</span>
+                                <span className='pr-3'>React Query</span>
+                                <span className='pr-3'>Firebase</span>
+                                <span className='pr-3'>Express.js</span>
+                                <span className='pr-3'>MongoDB</span>
+                            </div>
                         </div>
                         <div className='flex-grow'></div>
                         <div className='flex justify-start items-center gap-4'>
@@ -42,14 +63,36 @@ const Projects = () => {
                     </div>
                 </div>
 
-                <div className='bg-whit p-6 rounded-2xl border w-full lg:w-1/3 h-[550px] hover:border-[#191919]'>
+                <div className='bg-whit p-6 rounded-2xl border w-full lg:w-1/3 h-[650px] hover:border-[#191919]'>
                     <div className='w-full space-y-3 flex flex-col justify-between h-full'>
                         <div className='border overflow-hidden rounded-lg'>
-                            <img className='h-48 w-full hover:scale-110 transition-transform duration-300 ease-in-out' src={mfs} alt="" />
+                            <a href="https://mfs-paymate.web.app/">
+                                <img className='h-48 w-full hover:scale-110 transition-transform duration-300 ease-in-out' src={mfs} alt="" />
+                            </a>
                         </div>
                         <div className='text-start'>
                             <h3 className='text-xl font-medium mb-1'>Paymate</h3>
-                            <p>A user-friendly web application interface where users can register, send money, request cash in/out, and view transaction history. Agents can manage and accept cash in/out requests and access transaction records.</p>
+                            <p>A user-friendly app where users register, send money, request cash in/out, and view transactions. Agents manage cash requests and access records.</p>
+                        </div>
+                        <div>
+                            <h4 className='font-medium text-left'>Features</h4>
+                            <ul className=' text-left list-disc pl-7'>
+                                <li className=''>Money Transfer</li>
+                                <li className=''>Request cash in/out</li>
+                                <li className=''>View transaction history</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4 className='font-medium text-left'>Used Technology</h4>
+                            <div className='flex flex-wrap'>
+                                <span className='pr-3'>React</span>
+                                <span className='pr-3'>Axios</span>
+                                <span className='pr-3'>React Query</span>
+                                <span className='pr-3'>Firebase</span>
+                                <span className='pr-3'>Express.js</span>
+                                <span className='pr-3'>JWT</span>
+                                <span className='pr-3'>MongoDB</span>
+                            </div>
                         </div>
                         <div className='flex-grow'></div>
                         <div className='flex justify-start items-center gap-4'>
@@ -67,14 +110,35 @@ const Projects = () => {
                     </div>
                 </div>
 
-                <div className='bg-white p-6 rounded-2xl border w-full lg:w-1/3 h-[550px] hover:border-[#191919]'>
+                <div className='bg-white p-6 rounded-2xl border w-full lg:w-1/3 h-[650px] hover:border-[#191919]'>
                     <div className='w-full space-y-3 flex flex-col justify-between h-full'>
                         <div className='border overflow-hidden rounded-lg'>
-                            <img className='h-48 w-full hover:scale-110 transition-transform duration-300 ease-in-out' src={uni} alt="" />
+                            <a href="https://uni-reside.web.app/">
+                                <img className='h-48 w-full hover:scale-110 transition-transform duration-300 ease-in-out' src={uni} alt="" />
+                            </a>
                         </div>
                         <div className='text-start'>
                             <h3 className='text-xl font-medium mb-1'>UniReside</h3>
-                            <p>Unireside is a university hostel management platform that simplifies operations. Students can explore meal options, request food, and manage subscriptions. The platform ensures smooth and efficient service for both students and administrators.</p>
+                            <p>Unireside is a hostel management platform where students explore meals, request food, and manage subscriptions, ensuring smooth service for all.</p>
+                        </div>
+                        <div>
+                            <h4 className='font-medium text-left'>Features</h4>
+                            <ul className=' text-left list-disc pl-7'>
+                                <li className=''>Meal Options</li>
+                                <li className=''>Food Requests</li>
+                                <li className=''>Subscription Management</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4 className='font-medium text-left'>Used Technology</h4>
+                            <div className='flex flex-wrap'>
+                                <span className='pr-3'>React</span>
+                                <span className='pr-3'>Axios</span>
+                                <span className='pr-3'>React Query</span>
+                                <span className='pr-3'>Firebase</span>
+                                <span className='pr-3'>Express.js</span>
+                                <span className='pr-3'>MongoDB</span>
+                            </div>
                         </div>
                         <div className='flex-grow'></div>
                         <div className='flex justify-start items-center gap-4'>
