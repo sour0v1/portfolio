@@ -1,7 +1,7 @@
 import React from 'react';
-import sg from '../assets/sgg.png'
+import sg from '../assets/sg.png'
 import mfs from '../assets/mfs.png'
-import uni from '../assets/uni.png'
+import uni from '../assets/unii.png'
 import { TbWorld } from 'react-icons/tb';
 import { FaGithub } from 'react-icons/fa';
 
